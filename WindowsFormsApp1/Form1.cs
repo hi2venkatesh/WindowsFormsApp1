@@ -21,5 +21,15 @@ namespace WindowsFormsApp1
         {
             textBox4.Text=(textBox1.Text + textBox2.Text + textBox3.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("welcome back boss");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("WE WILL  SUCCED");
+        }
     }
 }
